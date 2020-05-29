@@ -1,0 +1,8 @@
+dis = int(input('Digite o valor em metros: '))
+print('{}km'.format(dis/1000))
+print('{}hm'.format(dis/100))
+print('{}dam'.format(dis/10))
+print('{}m'.format(dis))
+print('{}dm'.format(dis*10))
+print('{}cm'.format(dis*100))
+print('{}mm'.format(dis*1000))

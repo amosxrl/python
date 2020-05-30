@@ -1,0 +1,6 @@
+print('-Aluguel de carros-')
+alu = int(input('Quantos dias? '))
+dis = float(input('Quantos quilometros? '))
+val = (alu * 60) + (dis * 0.15)
+print('-' * 10)
+print('O valor é de R${:.2f}'.format(val))
